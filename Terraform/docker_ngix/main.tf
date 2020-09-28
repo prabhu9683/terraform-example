@@ -1,3 +1,6 @@
+------------------------------------------------------------------------
+## Deploying a docker container using infra automation terraform tool ##
+------------------------------------------------------------------------
 terraform {
   required_providers {
     docker = {
@@ -5,7 +8,6 @@ terraform {
     }
   }
 }
-
 provider "docker" {}
 
 resource "docker_image" "nginx" {
@@ -15,7 +17,7 @@ resource "docker_image" "nginx" {
 
 resource "docker_container" "nginx" {
   image = docker_image.nginx.latest
-  name  = "tutorial"
+  name  = "nginx_server"
   ports {
     internal = 80
     external = 8000
