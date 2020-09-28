@@ -1,13 +1,13 @@
-Start:
+STEPS
 ======
-Install Terraform into virtual box.
-create AWS account with key pairs
-Set your AWS credentials as the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.
-*************************
-Login to server and download floder from github location run following command
-Run terraform init.
-Run terraform plan
-Run terraform apply.
-*************************
-After it's done deploying, the example will output URLs or IPs you can try out.
-To clean up and delete all resources after you're done, run terraform destroy.
+1. Install Virtual box software into you windows system
+2. create a machine and install required software following a "preinstall_script"
+3. go to the terraform directory and download the folder from git location.
+4. login to each folder and run the following command
+terraform init
+terraform plan
+terraform apply
+5. once performed the following examples kindly delete all configuration using the following command
+terraform destroy
+
+Note: We are using the AWS FREE tiar account to performing the above example if you keep running the instance in the AWS account and you need to pay the bill for instances.
