@@ -1,7 +1,7 @@
 STEPS
 ======
 1. Install Virtual box software into you windows system
-2. create a machine and install required software following a "preinstall_script"
+2. create a machine and install required software following a "preinstall_terraform_script"
 3. go to the terraform directory and download the folder from git location.
 4. login to each folder and run the following command
 terraform init
