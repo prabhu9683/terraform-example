@@ -1,3 +1,6 @@
+-----------------------------------------------------------------------
+### Deploying a ubuntu server using infra automation terraform tool ###
+-----------------------------------------------------------------------
 terraform {
   required_providers {
     docker = {
