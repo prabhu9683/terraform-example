@@ -2,10 +2,10 @@
 ---------------------------------------------------------------------------
 ## Install openssh-server to enable root login for remote desktop ###
 ---------------------------------------------------------------------------
-sudo apt-get update 
-sudo apt-get install openssh-server
-sudo service ssh status
-sudo service ssh enable
+## sudo apt-get update 
+## sudo apt-get install openssh-server
+## sudo service ssh status
+## sudo service ssh enable
 ---------------------------------------------------------------------------
 ## Install Git-Version ##
 ---------------------------------------------------------------------------
