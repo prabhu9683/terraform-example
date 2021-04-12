@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-    ami = "var.ami_id"
-    instance_type = "var.instance.type"
+    ami = var.ami_id
+    instance_type = var.instance.type
 
     tags = {
-      "name" = "var.tag"
+      "name" = var.tag
     }
 }
